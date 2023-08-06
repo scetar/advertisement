@@ -1,0 +1,112 @@
+header{
+    display: flex;
+    background-color: black;
+     height:100px;
+    margin:30px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+   
+    padding: 20px;
+    color:violet;
+    font-size: large;
+    text-decoration: none;
+    border: 2px solid salmon;
+    border-radius: 20%;
+    background-color: bisque;
+}
+nav{
+    margin-left: 100px;
+}
+#home img{
+    background-size: cover;
+}
+.grid{
+    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.m img{
+    border-radius: 10%;
+}
+.grid1{
+    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+.item1 img,.item2 img,.item3 img,.item4 img,.item5 img,.item6 img,.item7 img{
+    border-radius: 10%;
+}
+
+.grid2{
+    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.ite1 img,.ite2 img,.ite3 img,.ite4 img,.ite5 img{
+    border-radius: 10%;
+}
+
+#move{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#move .slide{
+    display: inline-block;
+    
+}
+.grid3{
+    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.itm1 img,.itm2 img,.itm3 img,.itm4 img,.itm5 img,.itm6 img{
+    border-radius: 10%;
+}
+.ROW{
+    display: flex;
+    padding:20px;
+}
+form{
+    background-color: beige;
+    padding:60px;
+    margin-left:30px;
+    border:2px solid black;
+    border-radius:10%;
+}
+.inputbox{
+    background-color: pink;
+    color:aliceblue;
+    width:450px;
+    height:60px;
+    padding:20px;
+}
+footer {
+    color:brown;
+    background-color: brown;
+    height:50px;
+    padding:15px;
+    text-align: center;
+}
+body{
+    background-image: url('back.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
